@@ -33,4 +33,3 @@ Use Firebase for music online, SQLite for music offline
 
 # Video demo
 https://drive.google.com/file/d/1jdINWZjZ1yd7hM7j9KxaSr9UdIuFw7QK/view?usp=sharing
-blob:https://youfiles.herokuapp.com/d4476768-99bf-4f5d-af99-52d1c628bebb
