@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    android:padding="5dp"
+    android:id="@+id/item_song_album_onl"
+    android:orientation="horizontal">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearance="@style/CornerImg"
+        android:src="@drawable/icon_music"
+        android:id="@+id/imgSongAlbumOnl"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:text="Name Song"
+            android:id="@+id/nameSongAlbumOnl"/>
+        <TextView
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="#D4C7EA"
+            android:textSize="18sp"
+            android:text="Artist"
+            android:id="@+id/nameArtistAlbumOnl"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

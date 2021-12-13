@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    android:padding="5dp"
+    android:id="@+id/item_song_layout"
+    android:orientation="horizontal">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_marginLeft="10dp"
+        app:shapeAppearance="@style/CornerImg"
+        android:src="@drawable/icon_music"
+        android:id="@+id/imgSongAlbum"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:text="Name Song"
+            android:id="@+id/nameSongAlbum"/>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textColor="#D4C7EA"
+            android:textSize="18sp"
+            android:text="Artist"
+            android:id="@+id/nameArtistAlbum"/>
+
+    </LinearLayout>
+    <ImageView
+        android:clickable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_more_horiz"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/optionSong_of_Album"/>
+
+
+</LinearLayout>

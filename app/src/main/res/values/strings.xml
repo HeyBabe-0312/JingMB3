@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jing MB3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_song">Bài hát</string>
+    <string name="bottom_album">Album</string>
+    <string name="bottom_artist">Nghệ sĩ</string>
+</resources>

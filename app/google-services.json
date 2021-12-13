@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1007964545827",
+    "firebase_url": "https://musicupload-7dde0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "musicupload-7dde0",
+    "storage_bucket": "musicupload-7dde0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007964545827:android:35e1102bebefe43dd7a296",
+        "android_client_info": {
+          "package_name": "com.example.jingmb3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4hdMHcQez5QzxXfaEiIDwwcU3ZXe4_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007964545827:android:3cae87d6b34626e8d7a296",
+        "android_client_info": {
+          "package_name": "com.example.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4hdMHcQez5QzxXfaEiIDwwcU3ZXe4_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007964545827:android:cb07f48b47265a06d7a296",
+        "android_client_info": {
+          "package_name": "com.example.musicupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4hdMHcQez5QzxXfaEiIDwwcU3ZXe4_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007964545827-27t4qk5vgp8m3vs8kli7fretr0h8kjep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

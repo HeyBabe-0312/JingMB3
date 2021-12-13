@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    android:padding="10dp"
+    android:id="@+id/item_artist_song_onl"
+    android:orientation="horizontal">
+    <com.google.android.material.imageview.ShapeableImageView
+        app:shapeAppearance="@style/CornerImg"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/icon_music"
+        android:id="@+id/imgSongArtistOnl"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameSongArtistOnl"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Name Song"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:id="@+id/nameArtistSongOnl"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:textColor="#D4C7EA"
+                android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

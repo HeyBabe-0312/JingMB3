@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationDrawerStyle"
+        parent="Widget.Design.NavigationView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Searchview"
+        parent="Widget.AppCompat.Light.SearchView">
+        <item name="editTextColor">@color/white</item>
+        <item name="hintTextColor">#979793</item>
+    </style>
+
+    <style name="CornerradiusImg">
+        <item name="cornerSizeBottomLeft">7%</item>
+        <item name="cornerSizeBottomRight">7%</item>
+    </style>
+
+    <style name="CornerImg">
+        <item name="cornerSize">7%</item>
+    </style>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="160dp"
+    android:layout_margin="5dp"
+    android:id="@+id/item_artist_online"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/icon_artist"
+        android:id="@+id/imgArtistOnline"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:text="tên artist"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:id="@+id/nameArtistOnl"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="0 Bài hát"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/gray"
+        android:id="@+id/CountSongInArtistOnl"/>
+
+</LinearLayout>
